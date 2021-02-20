@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#97B6A7"
-    app:statusBarBackground="#FFFFFF"
+    android:background="#416A56"
+    app:statusBarBackground="#983434"
     tools:context=".MainActivity">
 
     <com.google.android.material.appbar.AppBarLayout
@@ -15,6 +15,6 @@
 
     <include
         layout="@layout/content_main"
-        android:background="#97B6A7" />
+        android:background="#33674E" />
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
