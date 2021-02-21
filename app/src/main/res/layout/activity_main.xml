@@ -8,10 +8,6 @@
     app:statusBarBackground="#983434"
     tools:context=".MainActivity">
 
-    <com.google.android.material.appbar.AppBarLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:theme="@style/Theme.Chessie.AppBarOverlay" />
 
     <include
         layout="@layout/content_main"

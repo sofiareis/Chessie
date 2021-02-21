@@ -6,6 +6,8 @@
     android:layout_height="match_parent"
     tools:context=".FirstFragment">
 
+
+
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="wrap_content"
@@ -29,14 +31,14 @@
         android:text="@string/ChessMate"
         android:textColor="#000000"
         android:textSize="36sp"
-        app:layout_constraintBottom_toTopOf="@id/button_first"
+        app:layout_constraintBottom_toTopOf="@id/button_login1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button_first"
+        android:id="@+id/button_login1"
         android:layout_width="175dp"
         android:layout_height="57dp"
         android:text="@string/facebook"
@@ -47,15 +49,18 @@
         app:layout_constraintTop_toBottomOf="@id/textview_first" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/button_login2"
         android:layout_width="175dp"
         android:layout_height="57dp"
         android:layout_marginBottom="16dp"
         android:text="@string/google"
         android:textColor="#000000"
         app:backgroundTint="#FDFBFB"
-        app:layout_constraintBottom_toTopOf="@+id/button_first"
+        app:layout_constraintBottom_toTopOf="@+id/button_login1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+

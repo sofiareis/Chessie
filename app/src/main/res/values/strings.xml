@@ -5,9 +5,11 @@
     <string name="first_fragment_label">First Fragment</string>
     <string name="second_fragment_label">Second Fragment</string>
     <string name="facebook">Log In</string>
-    <string name="previous">Previous</string>
+    <string name="new_game">Start New Game</string>
 
     <string name="ChessMate">ChessMate</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
     <string name="google">Log In</string>
+    <string name="welcome">Welcome to ChessMate!</string>
+    <string name="resume">Resume Previous Game</string>
 </resources>
